@@ -1,0 +1,8 @@
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.csproj.AssemblyReference.cache
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.AssemblyInfoInputs.cache
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.AssemblyInfo.cs
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.csproj.CoreCompileInputs.cache
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.RazorAssemblyInfo.cache
+C:\Users\hagen\Desktop\coding-dojo\core-mvc\cheftDishes\obj\Debug\net7.0\cheftDishes.RazorAssemblyInfo.cs

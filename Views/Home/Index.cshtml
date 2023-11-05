@@ -1,0 +1,27 @@
+﻿@model Chef
+<h1>Chef|<a href = "/dishes">Dishes</a></h1>
+
+
+<h1>Check out our roster of Chefs!</h1>
+<table>
+@{
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Number of Dishes</th>
+
+    </tr>
+    foreach(var chef in @ViewBag.chef){
+        <tr>
+            <td>@chef.FirstName @chef.LastName</td>
+            <td>@chef.year</td>
+            <td>@chef.Dishes.Count</td>
+        </tr>
+    }
+
+
+}
+</table>
+
+
+<a href = "/new">Add New Chef</a>

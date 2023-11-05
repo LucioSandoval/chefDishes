@@ -1,0 +1,28 @@
+<h1><a href = "/">Chef</a>|Dishes</h1>
+
+<h1>Yum, Take a look at our tasty dishes!</h1>
+
+<a href = "/dishes/new">Add a New Dish</a>
+
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Chef</th>
+        <th>Tastiness</th>
+        <th>Calories</th>
+
+    </tr>
+
+   @{ 
+       foreach(var dish in @ViewBag.dish){
+        <tr>
+            <td>@dish.Name</td>
+            <td>@dish.myChef.FirstName @dish.myChef.LastName</td>
+            <td>@dish.Tastiness</td>
+            <td>@dish.Calories</td>
+        </tr>
+        }
+   }
+
+<table

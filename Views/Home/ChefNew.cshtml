@@ -1,0 +1,23 @@
+@model Chef
+
+<h1>Agregar Chef!</h1>
+
+    <form asp-action="process" asp-controller="Home" method="post">
+
+        <span asp-validation-for="FirstName"></span>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName"><br>
+
+        <span asp-validation-for="LastName"></span>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName"><br>
+        
+        <span asp-validation-for="Age"></span>
+        <label asp-for="Age"></label>
+        <input type = "date" asp-for="Age"><br>
+
+
+        <input value="Add Chef" type="submit">    
+    </form>
+
+    <a href = "/">Home</a>
